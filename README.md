@@ -16,3 +16,26 @@ graph TD;
 - Make the class Animals an abstract class with a pure virtual function: ``livingArea()``. Override this function in the subsequent derived classes Terrestrial Animals, Aquatic Animals and, Amphibian Animals.
 
 - Create a base class pointer to point to derived class's objects and, demonstrate how they work.[not mendatory]
+
+
+# Q2
+
+Consider the class Complex:
+
+```cpp
+class Complex
+{
+private:
+    int real, imag;
+public:
+
+    Complex(int r = 0, int i = 0)
+    {
+        real = r;
+        imag = i;
+    }
+};
+```
+
+- Overload the ``+`` operator so that it accepts the following types of operations: ``ob + int;`` ``int + ob;``
+- Overload the ``==`` operator relative to the Complex class.
